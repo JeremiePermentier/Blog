@@ -1,0 +1,69 @@
+/* ==========================================================================
+   HEADER
+   ========================================================================== */
+
+   header {
+    height: 5vh;
+}
+/* Navigation
+   ========================================================================== */
+.nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    height: 100%;
+    background-color: #1b1c1d;
+    -webkit-box-shadow: 0px 2px 12px black;
+            box-shadow: 0px 2px 12px black;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0.5% 1rem;
+}
+
+    .nav a {
+        text-decoration: none;
+        color: #FFF;
+    } 
+    
+    .nav__button {
+        background-color: #1b1c1d;
+        border: 1px solid #FFF;
+        border-radius: 3px;
+        padding: 6px 9px;
+    }
+
+    .nav__button > i {
+        color: #FFF;
+    }
+
+    .nav__subMenu {
+        opacity: 0;
+        border-radius: 3px;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        position: absolute;
+        right: 15px;
+        top: 8%;
+    }
+
+    .nav__subMenu--open {
+        opacity: 1;
+        width: 10rem;
+        height: 4rem;
+        background-color: #1b1c1d;
+        -webkit-box-pack: space-evenly;
+            -ms-flex-pack: space-evenly;
+                justify-content: space-evenly;
+    }

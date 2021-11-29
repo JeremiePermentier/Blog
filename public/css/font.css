@@ -1,0 +1,26 @@
+/* ==========================================================================
+   FONT
+   ========================================================================== */
+
+   /* Title
+   ========================================================================== */
+h1 {
+    font-size: clamp(1.5rem, 3vw, 3rem);
+    text-align: center;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+
+h2 {
+    font-size: clamp(1.25rem, 3vw, 2rem);
+    text-align: center;
+}
+
+h3 {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    text-align: left;
+}
+
+.card__author {
+    margin-bottom: 1rem;
+}
